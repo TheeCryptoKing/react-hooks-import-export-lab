@@ -1,5 +1,6 @@
 import React from "react";
-
+import { image } from "../data/user.js";
+// two dots because have to leave component folder and enter the data folder 
 function About() {
   return (
     <div id="about">
@@ -9,3 +10,5 @@ function About() {
     </div>
   );
 }
+
+export default About;
